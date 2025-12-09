@@ -12,7 +12,7 @@ pefile==2023.2.7
 pyasn1==0.6.1
 pyinstaller==6.13.0
 pyinstaller-hooks-contrib==2025.4
-PySimpleGUI==5.0.10
+PySimpleGUI
 pywin32-ctypes==0.2.3
 rsa==4.9.1
 setuptools==80.8.0
