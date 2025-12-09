@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # --- Load Environment Variables ---
 load_dotenv()
-TOKEN = os.getenv('BOT_TOKEN')
+TOKEN = 'MTQ0NzUwNjk5Mzc1MjQ0NTAxOQ.GoRXlE.HjAKBrAu2BLl9RToTxNZ-v-IqzWinrQFW1RLiU'
 
 # Check if token was loaded
 if not TOKEN:
