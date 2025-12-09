@@ -7,8 +7,7 @@ from dotenv import load_dotenv
 
 # --- Load Environment Variables ---
 load_dotenv()
-TOKEN = os.getenv('BOT_TOKEN')
-TOKEN = 'MTQ0NzUwNjk5Mzc1MjQ0NTAxOQ.GaQzOK.2_m8jLiY6KqEBBZ1lam4ElPubXyKyCl61aemrA'
+TOKEN = os.getenv('BOT_TOKEN') # This line now correctly pulls your real token from .env
 
 # Check if token was loaded
 if not TOKEN:
@@ -16,14 +15,10 @@ if not TOKEN:
     exit(1)
 
 # --- Configuration Variables ---
-# --- REVERTED TO GENERIC PLACEHOLDERS ---
 UNVERIFIED_ROLE_NAME = 'Unverified'
 VERIFIED_ROLE_NAME = 'Konco-konco UTMKL ESPORTSr'
-# ----------------------------------------
-
 INTRODUCTION_CHANNEL_NAME = 'introductions'
 FORMAT_CHANNEL_NAME = 'format-template'
-# CHANGED: Name of the channel where the public welcome message appears
 WELCOME_CHANNEL_NAME = 'welcome'
 
 # The exact text people should copy and paste
