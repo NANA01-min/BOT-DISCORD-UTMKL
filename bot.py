@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # --- Load Environment Variables ---
 load_dotenv()
-TOKEN = 'MTQ0NzUwNjk5Mzc1MjQ0NTAxOQ.GoRXlE.HjAKBrAu2BLl9RToTxNZ-v-IqzWinrQFW1RLiU'
+TOKEN = 'MTQ0NzUwNjk5Mzc1MjQ0NTAxOQ.GaQzOK.2_m8jLiY6KqEBBZ1lam4ElPubXyKyCl61aemrA'
 
 # Check if token was loaded
 if not TOKEN:
